@@ -1,0 +1,2 @@
+rows_raw,rows_after_drop_duplicates,duplicate_rows_removed,rows_valid_timeline,rows_rejected_invalid_timeline,pct_valid,avg_cycle_time_hours,median_cycle_time_hours,sla_breach_rate
+20000,20000,0,20000,0,1.0,20.954534595461055,20.65032961875,0.11915

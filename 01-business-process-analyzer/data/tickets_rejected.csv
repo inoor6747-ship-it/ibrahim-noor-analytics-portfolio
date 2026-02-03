@@ -1,0 +1,1 @@
+ticket_id,created_at,intake_at,triage_at,work_at,resolved_at,category,priority,channel,owner_team,sla_target_hours,is_duplicate_ticket_id,is_valid_timeline
