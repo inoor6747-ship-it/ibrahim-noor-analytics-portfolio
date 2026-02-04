@@ -1,0 +1,4 @@
+table,rows,issue_count,issue_rate,duplicate_rate,completeness_overall,quality_score,completeness_customer_id,completeness_email,completeness_signup_date,completeness_country,completeness_status,completeness_transaction_id,completeness_transaction_date,completeness_amount,completeness_currency,completeness_channel
+OVERALL,35000,3242,0.09262857142857144,0.02971666666666667,0.9965833333333334,93.61833333333333,,,,,,,,,,
+customers,5000,548,0.1096,0.0396,0.994,92.848,1.0,0.97,1.0,1.0,1.0,,,,,
+transactions,30000,2694,0.0898,0.019833333333333335,0.9991666666666666,94.38866666666665,1.0,,,,,1.0,0.995,1.0,1.0,1.0
