@@ -23,7 +23,7 @@ Organizations rely on data that may contain missing values, duplicates, and inva
 ## Dashboard
 The Power BI dashboard presents data quality KPIs and rule failure distributions to support governance review and corrective action.
 
-[View dashboard (PDF)](powerbi/)
+[View dashboard (PDF)](powerbi/data_quality_dashboard.pdf)
 
 ## Tools & Technologies
 Python, SQL, Power BI, Excel
