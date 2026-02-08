@@ -12,8 +12,10 @@
       padding: 0 16px;
       line-height: 1.6;
     }
-    h1 { margin-bottom: 4px; }
-    .sub { color: #555; margin-bottom: 24px; }
+    h1 { margin-bottom: 6px; }
+    h2 { margin-top: 36px; }
+    .sub { color: #555; margin-bottom: 20px; }
+    .section { margin-bottom: 32px; }
     .projects {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -24,13 +26,12 @@
       border-radius: 10px;
       padding: 16px;
     }
-    .card h2 { margin-top: 0; }
+    .card h3 { margin-top: 0; }
     a { color: #0b57d0; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .links { margin-top: 10px; }
-    .links a { margin-right: 12px; }
+    ul { padding-left: 18px; }
     footer {
-      margin-top: 40px;
+      margin-top: 48px;
       color: #555;
       font-size: 14px;
     }
@@ -38,65 +39,111 @@
 </head>
 <body>
 
+  <!-- HEADER -->
   <h1>Ibrahim Noor</h1>
   <div class="sub">Analytics Portfolio · Python · SQL · Power BI</div>
 
-  <div class="projects">
-
-    <!-- Project 1 -->
-    <div class="card">
-      <h2>Business Process Performance Analyzer</h2>
-      <p>
-        Workflow analytics measuring cycle time, SLA breach rates,
-        and bottleneck stages across an end-to-end ticket lifecycle.
-      </p>
-      <div class="links">
-        <a href="./01-business-process-analyzer/">Project</a>
-        <a href="./01-business-process-analyzer/powerbi/business_process_analyzer_dashboard.pdf">
-          Dashboard
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="card">
-      <h2>Data Quality Governance Dashboard</h2>
-      <p>
-        Data quality scorecard tracking completeness, validity,
-        and duplicate records for governance reporting.
-      </p>
-      <div class="links">
-        <a href="./02-data-quality-governance/">Project</a>
-        <a href="./02-data-quality-governance/powerbi/data_quality_dashboard.pdf">
-          Dashboard
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="card">
-      <h2>Sales Operations Analytics</h2>
-      <p>
-        SQL-driven KPI reporting for revenue, margins,
-        and operational performance using Power BI.
-      </p>
-      <div class="links">
-        <a href="./03-sales-ops-sql-dashboard/">Project</a>
-        <a href="./03-sales-ops-sql-dashboard/powerbi/sales_ops_dashboard.pdf">
-          Dashboard
-        </a>
-      </div>
-    </div>
-
+  <!-- CAREER SUMMARY -->
+  <div class="section">
+    <h2>Career Summary</h2>
+    <p>
+      MIS graduate focused on data and business analytics, with hands-on experience
+      using SQL, Python, and Power BI to analyze systems, validate data, and surface
+      operational risks. Proven ability to identify defects, enforce data quality
+      rules, and translate business processes into clear, decision-ready insights.
+    </p>
   </div>
 
+  <!-- MISSION -->
+  <div class="section">
+    <h2>Mission</h2>
+    <p>
+      I aim to build reliable analytics and reporting solutions that improve
+      operational decision-making, data quality, and business process efficiency.
+    </p>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m an MIS graduate with a strong interest in analytics, system analysis,
+      and data governance. My background includes SQL-based defect analysis,
+      Python data validation, and Power BI dashboarding across workflow, banking,
+      and performance management systems. I focus on turning complex systems and
+      messy data into clear insights that support accuracy, compliance, and
+      better business decisions.
+    </p>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>Business Process Performance Analyzer</h3>
+        <p>
+          Workflow analytics measuring cycle time, SLA breach rates, and
+          bottleneck stages across an end-to-end ticket lifecycle.
+        </p>
+        <p>
+          <a href="./01-business-process-analyzer/">Project</a> |
+          <a href="./01-business-process-analyzer/powerbi/business_process_analyzer.pbix">
+            Power BI Dashboard
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Data Quality Governance Dashboard</h3>
+        <p>
+          Data quality scorecard tracking completeness, validity, and duplicate
+          records to support governance and audit-style reporting.
+        </p>
+        <p>
+          <a href="./02-data-quality-governance/">Project</a> |
+          <a href="./02-data-quality-governance/powerbi/data_quality_dashboard.pbix">
+            Power BI Dashboard
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Sales Operations Analytics</h3>
+        <p>
+          SQL-driven KPI reporting for revenue, margins, and operational
+          performance using Power BI dashboards.
+        </p>
+        <p>
+          <a href="./03-sales-ops-sql-dashboard/">Project</a> |
+          <a href="./03-sales-ops-sql-dashboard/powerbi/sales_ops_dashboard.pbix">
+            Power BI Dashboard
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <h2>Core Skills</h2>
+    <ul>
+      <li><strong>SQL:</strong> joins, subqueries, validation rules, defect analysis, reconciliation</li>
+      <li><strong>Python:</strong> pandas, NumPy, data cleaning, automation, testing</li>
+      <li><strong>Business Intelligence:</strong> Power BI (data modeling, DAX, dashboards), Tableau</li>
+      <li><strong>Analytics & Systems:</strong> data quality validation, process analysis, documentation</li>
+      <li><strong>Tools:</strong> Excel, GitHub, Lucidchart</li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
   <footer>
     <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/ibrahim-noor-578392299/" target="_blank">
-        ibrahim-noor
-      </a>
-      · Email:
+      <a href="./resume.pdf">Resume (PDF)</a> ·
+      <a href="https://www.linkedin.com/in/ibrahim-noor-578392299/" target="_blank">LinkedIn</a> ·
       <a href="mailto:inoor6747@gmail.com">inoor6747@gmail.com</a>
     </p>
   </footer>
