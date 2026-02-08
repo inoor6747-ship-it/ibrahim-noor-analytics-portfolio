@@ -21,7 +21,7 @@ Operations teams often lack visibility into where delays occur across an end-to-
 - SLA performance varies by owner team, suggesting targeted process or staffing interventions
 
 ## Dashboard Preview
-![Dashboard](powerbi/dashboard.pdf)
+![Dashboard](powerbi/business_process_analyzer_dashboard.pdf)
 
 ## Tools & Technologies
 Python (pandas, numpy), SQL, Power BI, Excel
