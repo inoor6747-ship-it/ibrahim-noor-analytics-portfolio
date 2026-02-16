@@ -1,23 +1,24 @@
 # Ibrahim Noor — Analytics Portfolio
 
-MIS-focused analyst portfolio featuring end-to-end projects in Python, SQL, and Power BI.
+Hands-on analytics projects demonstrating data cleaning, validation, and business reporting using Python, SQL, and Power BI.
 
 ## Projects
 
-### 1) Business Process Performance Analyzer
-- Built a Python workflow analytics pipeline to validate lifecycle timestamps, compute cycle time, SLA breach rates, and bottleneck stages
-- Created a Power BI dashboard for executive and operational reporting
-## Project 3 — Sales Operations Analytics
-SQL-based KPI pipeline and executive Power BI dashboard analyzing revenue, margins, returns, and sales performance by channel and region.
+### Business Process Performance Analyzer
+Identifies workflow bottlenecks and SLA risk in operational ticket data.  
+[Open Project](01-business-process-analyzer/) | [Dashboard](01-business-process-analyzer/powerbi/business_process_analyzer_dashboard.pdf)
 
+### Data Quality Governance Dashboard
+Measures reliability of datasets using rule-based validation and quality scorecards.  
+[Open Project](02-data-quality-governance/) | [Dashboard](02-data-quality-governance/powerbi/data_quality_dashboard.pdf)
 
-**Project:** [Open Project Folder](01-business-process-analyzer/README.md)  
-**Dashboard PDF:** [Download Dashboard](01-business-process-analyzer/powerbi/dashboard.pdf)
+### Sales Operations Analytics
+SQL reporting layer and executive dashboard analyzing revenue, margins, and returns.  
+[Open Project](03-sales-ops-sql-dashboard/) | [Dashboard](03-sales-ops-sql-dashboard/powerbi/sales_ops_dashboard.pdf)
 
-## Skills
-Python (pandas), SQL, Power BI, Excel, Data Cleaning, KPI Reporting, Process Analytics
+## Skills Demonstrated
+Python · SQL · Power BI · Excel · Data Cleaning · KPI Reporting · Process Analysis
 
 ## Contact
-- LinkedIn:https://www.linkedin.com/in/ibrahim-noor-578392299/
-- Email: inoor6747@gmail.com
-
+LinkedIn: https://www.linkedin.com/in/ibrahim-noor-578392299/  
+Email: inoor6747@gmail.com
