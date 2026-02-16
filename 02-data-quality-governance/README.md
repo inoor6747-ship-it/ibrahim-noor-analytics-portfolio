@@ -1,37 +1,38 @@
 # Data Quality Governance Dashboard
 
-## Business Problem
-Organizations rely on data that may contain missing values, duplicates, and invalid records. Without visibility into data quality issues, reporting accuracy and operational decisions are at risk. This project builds a data quality scorecard to monitor and surface data quality problems in a consistent, measurable way.
+## Purpose
+Organizations often report from unreliable data without realizing it.  
+This project measures data reliability using rule-based validation and a governance scorecard.
 
-## What I Built
-- Rule-based data quality checks for completeness, validity, and duplicates
-- KPI outputs summarizing overall data quality health
-- Breakdowns of quality issues by rule type and category
-- Power BI dashboard export for governance and audit-style reporting
+## What This Project Shows
+- Data validation logic
+- Quality monitoring
+- Governance-style reporting
 
 ## Data
-- Dataset includes intentional data quality issues to demonstrate validation logic
-- Records are evaluated against defined quality rules
-- Clean and failed records are separated to support transparency and remediation
+Dataset intentionally contains quality issues:
+- Missing values
+- Invalid fields
+- Duplicate records
 
-## Key Outputs
-- Overall data quality scorecard
-- Counts and percentages of rule failures
-- Identification of high-risk data quality areas
-- Stakeholder-ready Power BI dashboard
+Records are evaluated and classified as clean or failed.
+
+## Analysis Performed
+- Completeness checks
+- Validity rules
+- Duplicate detection
+- Failure rate measurement
+
+## Output
+- Overall data quality score
+- Failure rates by rule type
+- High-risk data categories
 
 ## Dashboard
-The Power BI dashboard presents data quality KPIs and rule failure distributions to support governance review and corrective action.
+[View Dashboard](powerbi/data_quality_dashboard.pdf)
 
-[View dashboard (PDF)](powerbi/data_quality_dashboard.pdf)
-
-## Tools & Technologies
+## Tech Used
 Python, SQL, Power BI, Excel
 
-## Files
-- Dashboard PDF: ./powerbi/
-- Source code: ./src/
-- Data outputs: ./data/
-
-## Notes
-This project is dashboard-first. The Power BI dashboard export is provided in the repository to demonstrate governance metrics and reporting structure.
+## Why It Matters
+Shows how analytics supports audit readiness and trustworthy reporting — not just visualization.
