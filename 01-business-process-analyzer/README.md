@@ -1,33 +1,39 @@
 # Business Process Performance Analyzer
 
-## Business Problem
-Operations teams often lack visibility into where delays occur across an end-to-end workflow, making it difficult to identify SLA risks, process bottlenecks, and ownership gaps. This project analyzes ticket lifecycle data to measure cycle time, SLA breach rates, and bottleneck stages to support data-driven process improvements.
+## Purpose
+Operations teams often know tickets are slow, but not *where* delays happen.  
+This project analyzes a ticket workflow to identify SLA risk, bottleneck stages, and ownership gaps.
+
+## What This Project Shows
+- Workflow lifecycle analysis
+- Data validation and cleaning
+- SLA performance measurement
+- Operational dashboard reporting
 
 ## Data
-- Generated realistic ticket lifecycle data with intentional data quality issues (duplicates, missing timestamps, invalid timelines)
-- Separated raw, clean, and rejected records to demonstrate data validation practices
-- Computed KPI summary tables for executive reporting
+Synthetic ticket lifecycle dataset (5k+ records) with intentional issues:
+- Duplicate tickets
+- Missing timestamps
+- Invalid event sequences
 
-## Approach
-- Built a Python pipeline to generate, clean, and validate workflow data
-- Calculated cycle time metrics and SLA breach indicators
-- Aggregated results by priority, category, owner team, and bottleneck stage
-- Visualized KPIs and trends in Power BI for stakeholder-ready reporting
+The pipeline separates raw, clean, and rejected records before analysis.
 
-## Key Insights
-- Critical-priority tickets account for the highest SLA breach rates
-- Cycle times are relatively consistent across categories, indicating systemic process delays rather than category-specific issues
-- One workflow stage accounts for the majority of bottlenecks, highlighting a clear improvement opportunity
-- SLA performance varies by owner team, suggesting targeted process or staffing interventions
+## Analysis Performed
+- Cycle time calculation by workflow stage
+- SLA breach rate by priority and owner team
+- Bottleneck detection
+- Team performance comparison
 
-## Dashboard Preview
-![Dashboard](powerbi/business_process_analyzer_dashboard.pdf)
+## Key Findings
+- One workflow stage created the majority of delays
+- Critical priority tickets had the highest breach rates
+- SLA performance varied significantly by owner team
 
-## Tools & Technologies
-Python (pandas, numpy), SQL, Power BI, Excel
+## Dashboard
+[View Dashboard](powerbi/business_process_analyzer_dashboard.pdf)
 
-## How to Run
-```bash
-pip install pandas numpy faker
-python src/generate_data.py
-python src/analyze.py
+## Tech Used
+Python (pandas), SQL, Power BI, Excel
+
+## Why It Matters
+Demonstrates how operational data can be transformed into clear process improvement decisions.
