@@ -29,7 +29,7 @@ Records are evaluated and classified as clean or failed.
 - High-risk data categories
 
 ## Dashboard
-[View Dashboard](powerbi/data_quality_dashboard.pdf)
+[View Power BI Dashboard (PDF)](dashboard/data_quality_dashboard.pdf)
 
 ## Tech Used
 Python, SQL, Power BI, Excel
